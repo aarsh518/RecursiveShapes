@@ -9,20 +9,18 @@ The approach used to do this task is via Shape Layer and Bezier paths. I have cr
 As the first shape needs to be an equilateral triangle, I identified a drawing area which is basically a square. Imagining this square area makes it easier for the shapes to be drawn.
 Take this initial drawing area's reference, I draw a triangle and then adjust the drawing area for drawing the square inside the triangle.
 
-## Output
-
-![Recursive Shapes with count set as 4](recursiveShapesWithCount_4.png)
-
-![Recursive Shapes with count set as 8](recursiveShapesWithCount_8.png)
-
 ## Usage
-
 ```bash
 recursiveShapeView = RecursiveShapesView(count: 8, frame: view.bounds)
 view.addSubview(recursiveShapeView)
 ```
 
-## Contact
+## Output
+**Recursive shapes with count set as 4**
+![Recursive Shapes with count set as 4](recursiveShapesWithCount_4.png)
+**Recursive shapes with count set as 8**
+![Recursive Shapes with count set as 8](recursiveShapesWithCount_8.png)
 
+## Contact
 If you have any queries/doubts/suggestions regarding this project, feel free to write me at <aarsh.parekh@live.com>
 
