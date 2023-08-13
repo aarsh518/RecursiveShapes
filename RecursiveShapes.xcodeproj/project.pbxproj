@@ -13,6 +13,7 @@
 		F2277FE62A89790A0078C93E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2277FE42A89790A0078C93E /* Main.storyboard */; };
 		F2277FE82A89790B0078C93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2277FE72A89790B0078C93E /* Assets.xcassets */; };
 		F2277FEB2A89790B0078C93E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2277FE92A89790B0078C93E /* LaunchScreen.storyboard */; };
+		F2277FF32A8979C40078C93E /* RecursiveShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2277FF22A8979C40078C93E /* RecursiveShapesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F2277FE72A89790B0078C93E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2277FEA2A89790B0078C93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2277FEC2A89790B0078C93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2277FF22A8979C40078C93E /* RecursiveShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F2277FE72A89790B0078C93E /* Assets.xcassets */,
 				F2277FE92A89790B0078C93E /* LaunchScreen.storyboard */,
 				F2277FEC2A89790B0078C93E /* Info.plist */,
+				F2277FF22A8979C40078C93E /* RecursiveShapesView.swift */,
 			);
 			path = RecursiveShapes;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				F2277FE32A89790A0078C93E /* ViewController.swift in Sources */,
 				F2277FDF2A89790A0078C93E /* AppDelegate.swift in Sources */,
 				F2277FE12A89790A0078C93E /* SceneDelegate.swift in Sources */,
+				F2277FF32A8979C40078C93E /* RecursiveShapesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

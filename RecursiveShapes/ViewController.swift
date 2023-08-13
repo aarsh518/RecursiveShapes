@@ -9,11 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var recursiveShapeView: RecursiveShapesView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        recursiveShapeView = RecursiveShapesView(count: 8, frame: view.bounds)
+        view.addSubview(recursiveShapeView)
+    }
 }
 
